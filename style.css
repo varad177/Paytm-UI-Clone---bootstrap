@@ -1,0 +1,434 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky !important;
+}
+.outer{
+  position: sticky;
+}
+
+p {
+  margin: 0;
+}
+
+.navbar{
+  background-color: white;
+}
+
+.navbarInner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.NavWrapper {
+  display: flex;
+  
+}
+
+.navbar-toggler-icon {
+  margin-top: 8px;
+}
+.navbar-toggler-icon i {
+  font-size: 22px;
+  color: grey;
+  margin: 0 0 0 8px;
+}
+
+.navbar-toggler {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.hide {
+  display: none !important;
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
+.nav-item a,
+.nav-item button {
+  font-size: 1.2vw;
+  font-weight: 600;
+  margin: 0 1vw;
+  background-color: white;
+}
+.nav-item a img {
+  height: 4.3vw;
+}
+
+.nav-link:hover {
+  background-color: rgba(220, 219, 219, 0.301);
+}
+
+.nav-item button:focus,
+.nav-item button:hover {
+  background-color: white;
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+.navBarBtn {
+  padding: 2px 2px 2px 14px;
+  background-color: #00baf2;
+  border-radius: 50px;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.navBarBtn:hover {
+  background-color: #002970;
+}
+
+.NavWrapper {
+  height: 8vw;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  
+}
+
+.logoAndBtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 2px 10px;
+}
+
+.navDown {
+  background: #f6f6f6;
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navDown p {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+.navDown span {
+  font-weight: 500 !important;
+}
+
+/* //home */
+
+.pattmloveimg {
+  width: 6rem;
+  height: 6rem;
+  margin-bottom: 2rem;
+}
+
+.home {
+  margin-top: 4rem;
+}
+
+.home h1 {
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 65px;
+  margin-bottom: 2rem;
+}
+.home p {
+  padding-top: 10px;
+
+  margin-bottom: 40px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.homeBtn {
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  font-size: 1rem;
+  padding: 10px 15px;
+  margin-top: 1.5rem;
+  width: fit-content;
+}
+
+.homeBtn img {
+  filter: invert(1);
+}
+
+.homeRightimg {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+}
+
+/* services  */
+
+.sevices {
+  background-color: #00baf2;
+  padding: 3rem 0;
+}
+
+.sevices img {
+  width: 3rem;
+  height: 3rem;
+
+  margin-bottom: 0.5rem;
+}
+
+.sevices .card {
+  background-color: transparent;
+  margin-left: 5%;
+  padding: 0.5rem;
+  cursor: pointer;
+  padding-left: 18%;
+}
+
+.sevices .card:hover {
+  background-color: #0d9fcbaf;
+}
+
+.sevices .card p {
+  margin: 0;
+  color: white;
+  font-size: 17px;
+}
+
+.services_bold_text {
+  font-weight: bold;
+}
+
+.servicesHeading {
+  font-size: 36px;
+  color: #fff;
+  font-weight: 700;
+  margin-left: 3rem;
+  margin-bottom: 3rem;
+}
+
+#services2 {
+  background-color: #0f4a8a !important;
+}
+#services2 .card:hover {
+  background-color: #052f5d !important;
+}
+
+.instruments {
+  background-color: #f5f7fa;
+  padding-bottom: 2rem;
+}
+
+.mainheading {
+  margin: 0 auto 35px;
+  font-size: 48px;
+  color: #000;
+  font-weight: 700;
+  line-height: 50px;
+  margin-top: 3rem;
+}
+
+.rupeeIcon img {
+  height: 77px;
+}
+
+.instrumentPadding {
+  padding: 3rem;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.rupeeIcon {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.rupeeIcon p {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.heading {
+  margin: 48px 0 30px 0;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 46px;
+  width: 390px;
+}
+
+.para {
+  padding: 24px 0 40px 0;
+  display: block;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.learnMoreBtn {
+  background: #002970;
+  padding: 16px 24px;
+  border-radius: 25px;
+  width: fit-content;
+  cursor: pointer;
+  cursor: pointer;
+  display: flex;
+  font-size: 17px;
+  color: #fff;
+  font-weight: 500;
+  line-height: 18px;
+  gap: 10px;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+#specialImg img {
+  height: 80%;
+}
+
+.tools img {
+  width: 80%;
+}
+.tools {
+  margin-top: 2rem;
+}
+
+.heading2 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+}
+
+.para2 {
+  display: block;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.tools .card {
+  padding-left: 20%;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.applogo {
+  display: flex;
+  gap: 20px;
+}
+
+footer {
+  margin-top: 2rem;
+  background-color: #F5F7FA;
+  padding: 2rem 0 ;
+}
+.applogo p {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.appicons{
+  display: flex;
+  gap: 30px;
+}
+
+.apps{
+  padding: 3rem 0 ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.499);
+  margin-bottom: 2rem;
+
+
+}
+.footerLine{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 30px 0 ;
+  cursor: pointer;
+}
+
+.footerLine p {
+  font-size: 14px;
+    color: #505050;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.footerHide{
+  display: none;
+
+}
+
+.footerShow{
+  display: block;
+}
+
+.plus1Content{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem 0 ;
+
+}
+.plus1Content p {
+  cursor: pointer;
+    font-size: 12px;
+    color: #707070;
+    font-weight: 500;
+
+}
+.plus2Content p {
+
+    font-size: 12px;
+    color: #707070;
+    font-weight: 500;
+
+}
+
+* , body{
+  transition: all 0.3s ease-in-out;
+}
+
+#plus1{
+  transition: transform 0.3s ease-in-out;
+}
+
+.rotate-icon {
+  transform: rotate(45deg);
+}
+
+::-webkit-scrollbar {
+  width: 8px; /* Width of the entire scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f0f0; /* Color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #5fc1fe; /* Color of the thumb */
+  border-radius: 6px; /* Rounded corners of the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #5F9EA0; /* Color of the thumb on hover */
+}

@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>payTM Clone</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <script
+      src="https://kit.fontawesome.com/b0a4a992bb.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- nabBar  -->
+
+    <div class="outer fixed-top">
+      <div class="NavWrapper hide">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon">
+            <i class="fa-solid fa-bars"></i>
+          </span>
+        </button>
+        <div class="logoAndBtn">
+          <a class="nav-link active" aria-current="page" href="#"
+            ><img id="logoImg" src="./images/logo.svg" alt="" srcset=""
+          /></a>
+
+          <div class="navBarBtn" id="">
+            Sign In <img src="./images/loginImg.svg"">
+          </div>
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-lg">
+        <div class="navbarInner">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item tabletHide">
+                <a class="nav-link active" aria-current="page" href="#"
+                  ><img src="./images/logo.svg"
+                /></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Paytm for Consumer</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Paytm For Businesss</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Investor Relations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Company</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <button
+                  class="btn btn-light dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  career
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="tabletHide">
+                <div class="navBarBtn">
+                  Sign In <img src="./images/loginImg.svg"">
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="navDown">
+      <p>
+        <span>No Wallet KYC Required </span>😊 to Pay using on Paytm.
+        <span>Learn More</span>
+      </p>
+    </div>
+
+    <section id="home" class="home">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7 col-sm-12 p-4">
+            <div class="card border-0">
+              <img
+                src="./images/pattmloveupi.png"
+                class="img-fluid pattmloveimg"
+              />
+
+              <div class="content">
+                <h1>
+                  India's Most-loved <br />
+                  Payments App
+                </h1>
+                <p>
+                  Recharge & pay bills, book flights & movie tickets, open a
+                  saving account, invest in stocks & mutual funds, and do a lot
+                  more
+                </p>
+                <div class="homeBtn">
+                  Download Paytm App
+                  <img src="./images/apple_svg.svg" />
+                  <img src="./images/play_store_svg.svg" alt="" srcset="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 col-sm-12 homeRightimg">
+            <img src="./images/scanAnyQr.png" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sevices">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h1 class="servicesHeading">Recharge & Pay Bills on Paytm.</h1>
+          </div>
+        </div>
+        <div class="row item-center">
+          <div class="col-lg-2 col-md-4 col-sm-6 col-6 col-xs-6">
+            <div class="card border-0">
+              <img src="./images/mobileIcon.png" class="img-fluid" />
+              <p>Recharge</p>
+              <p class="services_bold_text">
+                Prepaid <br />
+                Mobile
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-6 col-xs-6">
+            <div class="card border-0">
+              <img src="./images/bulbicon.png" class="img-fluid" />
+              <p>Pay</p>
+              <p class="services_bold_text">Electricity <br />Bill</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-6 col-xs-6">
+            <div class="card border-0">
+              <img src="./images/dishIcon.png" class="img-fluid" />
+              <p>Recharge</p>
+              <p class="services_bold_text">DTH <br />Connection</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-6 col-xs-6">
+            <div class="card border-0">
+              <img src="./images/cyllinderIcon.png" class="img-fluid" />
+              <p>Book</p>
+              <p class="services_bold_text">
+                Gas <br />
+                Cylinder
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-6 col-xs-6">
+            <div class="card border-0">
+              <img src="./images/wifi.png" class="img-fluid" />
+              <p>Pay</p>
+              <p class="services_bold_text">Broadband & <br />landline Bill</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-6 col-xs-6">
+            <div class="card border-0">
+              <img src="./images/callbook.png" class="img-fluid" />
+              <p>Pay</p>
+              <p class="services_bold_text">
+                Education <br />
+                Fee
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sevices" id="services2">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h1 class="servicesHeading">Book & Buy on Paytm.</h1>
+          </div>
+        </div>
+        <div class="row item-center">
+          <div class="col-lg-2 col-md-4 col-sm-6 col-6 col-xs-6">
+            <div class="card border-0">
+              <img src="./images/mobileIcon.png" class="img-fluid" />
+
+              <p class="services_bold_text">
+                Prepaid <br />
+                Mobile
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-6 col-xs-6">
+            <div class="card border-0">
+              <img src="./images/bulbicon.png" class="img-fluid" />
+
+              <p class="services_bold_text">Electricity <br />Bill</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-6 col-xs-6">
+            <div class="card border-0">
+              <img src="./images/dishIcon.png" class="img-fluid" />
+
+              <p class="services_bold_text">DTH <br />Connection</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-6 col-xs-6">
+            <div class="card border-0">
+              <img src="./images/cyllinderIcon.png" class="img-fluid" />
+
+              <p class="services_bold_text">
+                Gas <br />
+                Cylinder
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-6 col-xs-6">
+            <div class="card border-0">
+              <img src="./images/wifi.png" class="img-fluid" />
+
+              <p class="services_bold_text">Broadband & <br />landline Bill</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-6 col-xs-6">
+            <div class="card border-0">
+              <img src="./images/callbook.png" class="img-fluid" />
+
+              <p class="services_bold_text">
+                Education <br />
+                Fee
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="instruments">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h1 class="mainheading">Paytm Payment Instruments</h1>
+          </div>
+        </div>
+
+        <div class="row row-cols-12 instrumentPadding">
+          <div class="col-md-6 col-sm-12">
+            <div class="card border-0">
+              <div class="rupeeIcon">
+                <img
+                  class="img-fluid"
+                  src="./images/pocketSymbol.png"
+                  alt=""
+                  srcset=""
+                />
+                <p>
+                  UPI Money <br />
+                  Transfer
+                </p>
+              </div>
+              <h1 class="heading">The Fastest Way to Pay In-store & Online.</h1>
+              <p class="para">
+                Load up your Paytm Wallet for free and make payments in a jiffy
+                at over 21 million stores, websites and apps.
+              </p>
+              <div class="homeBtn">
+                Download The App
+                <img src="./images/apple_svg.svg" />
+                <img src="./images/play_store_svg.svg" alt="" srcset="" />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 md-sm-12 instrumentImg">
+            <img class="img-fluid" src="./images/paytmWa;lleteBalance.png" />
+          </div>
+        </div>
+        <div class="row row-cols-12 mt-5 pb-4 instrumentPadding">
+          <div class="col-md-6 col-sm-12">
+            <div class="card border-0">
+              <div class="rupeeIcon">
+                <img
+                  class="img-fluid"
+                  src="./images/rupeeSymbol.png"
+                  alt=""
+                  srcset=""
+                />
+                <p>
+                  PayTM <br />
+                  Wallet
+                </p>
+              </div>
+              <h1 class="heading">
+                Pay anyone directly <br />
+                from your bank account.
+              </h1>
+              <p class="para">
+                Pay anyone, everywhere. Make contactless & secure payments
+                in-stores or online using Paytm Wallet or Directly from your
+                Bank Account. Plus, send & receive money from anyone.
+              </p>
+              <div class="homeBtn">
+                Download The App
+                <img src="./images/apple_svg.svg" />
+                <img src="./images/play_store_svg.svg" alt="" srcset="" />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 md-sm-12 instrumentImg">
+            <img class="img-fluid" src="./images/paidSuccessfully.png" />
+          </div>
+        </div>
+        <div class="row row-cols-12 mt-5 instrumentPadding">
+          <div class="col-md-6 col-sm-12">
+            <div class="card border-0">
+              <div class="rupeeIcon">
+                <img
+                  class="img-fluid"
+                  src="./images/paytmpostpaid.png"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+              <h1 class="heading">Want it? No more waiting for it.</h1>
+              <p class="para">
+                With Paytm Postpaid, your wishlist doesn't have to be <br />
+                on the waitlist. Shop for the things you want today and <br />
+                pay for them next month.
+              </p>
+              <button class="learnMoreBtn">Learn More</button>
+            </div>
+          </div>
+          <div class="col-md-6 md-sm-12 instrumentImg" id="specialImg">
+            <img class="img-fluid" src="./images/dhoppingBag.png" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-4 tools">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h1 class="mainheading">
+              Business Tools to help your business grow
+            </h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+            <div class="card border-0 mb-">
+              <img src="./images/dashBoard.png" class="img-fluid" />
+              <h1 class="heading2 my-2">
+                POS Billing <br />
+                Software
+              </h1>
+              <p class="para2 my-2 py-1">
+                Say Hello to Smart Retail Business Management
+              </p>
+              <div class="my-2 py-1 font-weight-bold bold">Learn More</div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+            <div class="card border-0 mb-">
+              <img src="./images/paytmForBusiness.png" class="img-fluid" />
+              <h1 class="heading2 my-2">
+                Paytm for <br />
+                Business App
+              </h1>
+              <p class="para2 my-2 py-1">
+                Everything you need to manage your business on your phone
+              </p>
+              <div class="my-2 py-1 font-weight-bold bold">Learn More</div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+            <div class="card border-0 mb-">
+              <img src="./images/paytmseUpi.png" class="img-fluid" />
+              <h1 class="heading2 my-2">
+                Advertise on <br />
+                Paytm
+              </h1>
+              <p class="para2 my-2 py-1">
+                Grow your business by advertising on India’s largest mobile
+                business
+              </p>
+              <div class="my-2 py-1 font-weight-bold bold">Learn More</div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+            <div class="card border-0 mb-">
+              <img src="./images/ramlalGeneralStore.png" class="img-fluid" />
+              <h1 class="heading2 my-2">
+                Business <br />
+                Khata
+              </h1>
+              <p class="para2 my-2 py-1">Managing Khata made easy</p>
+              <div class="my-2 py-1 font-weight-bold bold">Learn More</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="apps">
+          <div class="applogo">
+            <p>
+              Download Paytm App <br />
+              to Pay from anywhere
+            </p>
+            <img src="./images/downloadApple.svg" />
+            <img src="./images/downloadGoogle.svg" />
+          </div>
+
+          <div class="appicons">
+            <img src="./images/twitter.svg" />
+            <img src="./images/instagram.svg" />
+            <img src="./images/facebook.svg" />
+          </div>
+        </div>
+        <div onclick="togglePlusContent()" class="footerLine">
+          <img id="plus1" src="./images/plus.svg" />
+          <p>Investor Relations</p>
+        </div>
+        <div class="footerHide plus1Contentwrapper">
+          <div class="plus1Content">
+            <p>Home</p>
+            <p>fonancials</p>
+            <p>Filings & Press Released</p>
+            <p>News & Events</p>
+            <p>Corporate governance</p>
+            <p>Resources</p>
+          </div>
+        </div>
+
+        <!-- --------------- -->
+
+        <div onclick="togglePlusContent2()" class="footerLine">
+          <img id="plus2" src="./images/plus.svg" />
+          <p>Investor Relations</p>
+        </div>
+        <div class="footerHide plus1Contentwrapper2">
+          <div class="plus2Content">
+            <p>
+              Paytm is a well-known Indian e-commerce payment system and
+              financial technology company. It was founded in 2010 by Vijay
+              Shekhar Sharma and is headquartered in Noida, Uttar Pradesh,
+              India. Paytm started as a mobile recharge and utility bill payment
+              platform and has since evolved into a diverse financial services
+              platform.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      function togglePlusContent() {
+        var plusContent = document.querySelector(".plus1Contentwrapper");
+        var plusIcon = document.getElementById("plus1");
+
+        console.log(plusContent.style.display);
+
+        var isShow = plusContent.classList.toggle("footerHide");
+
+        var isRotated = plusIcon.classList.toggle("rotate-icon");
+      }
+
+      function togglePlusContent2() {
+        var plusContent = document.querySelector(".plus1Contentwrapper2");
+        var plusIcon = document.getElementById("plus2");
+
+        console.log(plusContent.style.display);
+
+        var isShow = plusContent.classList.toggle("footerHide");
+
+        var isRotated = plusIcon.classList.toggle("rotate-icon");
+      }
+    </script>
+  </body>
+</html>

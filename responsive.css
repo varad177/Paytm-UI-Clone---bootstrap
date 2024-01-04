@@ -1,0 +1,209 @@
+@media (max-width: 1100px) {
+  .nav-item a,
+  .nav-item button {
+    font-size: 1.6vw;
+  }
+}
+
+@media (max-width: 992px) {
+
+  .applogo{
+    justify-content: center;
+    padding: 2rem 0 ;
+
+  }
+
+  .apps{
+    flex-direction: column;
+  }
+  
+  .apps img{
+    width: 25%;
+  }
+  .apps p{
+   font-size: 100%;
+  }
+  .plus1Content{
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  #specialImg img{
+    height : unset;
+  }
+  .mainheading {
+    margin: 0 auto 31px;
+    font-size: 34px;
+    color: #000;
+    font-weight: 700;
+    line-height: 44px;
+    margin-top: 2rem;
+}
+  .mainheading2 {
+ 
+    font-size: 34px;
+    color: #000;
+    font-weight: 700;
+    line-height: 44px;
+
+}
+.instrumentPadding {
+  padding: 2rem;
+  background-color: white;
+  border-radius: 20px;
+}
+  .hide {
+    display: flex !important;
+  }
+
+  .tabletHide {
+    display: none !important;
+  }
+
+  .nav-item a,
+  .nav-item button {
+    font-size: 2vw;
+  }
+  .home h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 65px;
+    margin-bottom: 2rem;
+  }
+
+  .home {
+    margin-top: 2rem;
+  }
+
+  .sevices .card {
+    margin-left: 2.5rem;
+    margin-bottom: 1rem;
+   
+  }
+
+  .servicesHeading {
+    font-size: 31px;
+    color: #fff;
+    font-weight: 700;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .instrumentImg {
+    margin-top: 2rem;
+  }
+
+  .heading {
+    margin-top: 10px;
+    font-size: 27px;
+    line-height: 41px;
+    width: auto;
+  }
+  .heading2 {
+   
+    font-size: 27px;
+    line-height: 41px;
+    width: auto;
+  }
+
+  .para {
+    padding: 13px 0 22px;
+    font-size: 15px;
+}
+
+
+}
+
+@media (max-width: 700px) {
+  .tools .card{
+    border-bottom: 1px solid grey !important;
+  }
+
+}
+@media (max-width: 600px) {
+
+  .applogo{
+    justify-content: center;
+    flex-direction: column;
+
+  }
+
+  .apps img {
+    width: 101%;
+}
+.apps{
+  padding:  0 0 2rem 0 ;
+}
+
+  #logoImg {
+    width: 30vw;
+  }
+
+  .NavWrapper {
+    height: 12vw;
+  }
+
+  .nav-item a,
+  .nav-item button {
+    font-size: 3vw !important;
+  }
+  .home h1 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 53px;
+    margin-bottom: 1rem;
+  }
+  .navDown p {
+    font-size: 0.7rem;
+  }
+
+  .sevices .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media (max-width: 400px) {
+  .navBarBtn {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+    padding: 2px 2px 2px 8px;
+  }
+
+  .navBarBtn img {
+    width: 28px;
+  }
+  .nav-item a,
+  .nav-item button {
+    font-size: 3.8vw !important;
+  }
+
+  .sevices .card {
+    margin-left: 0.5rem;
+    margin-bottom: 1rem;
+  
+  }
+}
+
+@media (max-width: 350px) {
+  .navDown p {
+    font-size: 0.6rem;
+  }
+
+  .home h1 {
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 1rem;
+  }
+
+  .home p {
+    padding-top: 7px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+  }
+}
